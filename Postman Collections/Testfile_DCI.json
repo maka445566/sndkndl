@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "retrieve user profile",
-      "_postman_id": "81236d36-14b2-45f6-bc6a-a1c8c62f4a52",
+      "id": "81236d36-14b2-45f6-bc6a-a1c8c62f4a52",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -20,7 +20,7 @@
     },
     {
       "name": "Retrieve Repository Information",
-      "_postman_id": "9099e2e9-3e08-4486-8eef-a8997cb2ab21",
+      "id": "9099e2e9-3e08-4486-8eef-a8997cb2ab21",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -33,7 +33,7 @@
     },
     {
       "name": "Retrieve repos for user",
-      "_postman_id": "a918fc59-a73c-498d-a150-497b34c9c541",
+      "id": "a918fc59-a73c-498d-a150-497b34c9c541",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -62,8 +62,7 @@
           "variable": [
             {
               "key": "username",
-              "value": "spring-projects",
-              "type": "string"
+              "value": "spring-projects"
             }
           ]
         }
@@ -72,7 +71,7 @@
     },
     {
       "name": "Retrieve repos for user Copy",
-      "_postman_id": "28b28a51-2f3e-48d3-9605-61a6094d6fb5",
+      "id": "28b28a51-2f3e-48d3-9605-61a6094d6fb5",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -102,8 +101,7 @@
             {
               "id": "e48ef815-d68e-4830-ab4e-16707d13efa6",
               "key": "username",
-              "value": "spring-projects",
-              "type": "string"
+              "value": "spring-projects"
             }
           ]
         }
@@ -112,7 +110,20 @@
     },
     {
       "name": "New Request",
-      "_postman_id": "f210d4b9-ec78-46c3-9f03-af5cae3781b1",
+      "id": "f210d4b9-ec78-46c3-9f03-af5cae3781b1",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "id": "c062e2d3-0457-4498-85bc-c2bd73321a31",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
