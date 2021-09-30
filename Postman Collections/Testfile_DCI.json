@@ -1,0 +1,127 @@
+{
+  "info": {
+    "_postman_id": "cb71ccdb-c269-46cf-83b6-1518be1a72a5",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "retrieve user profile",
+      "_postman_id": "81236d36-14b2-45f6-bc6a-a1c8c62f4a52",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    },
+    {
+      "name": "Retrieve Repository Information",
+      "_postman_id": "9099e2e9-3e08-4486-8eef-a8997cb2ab21",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    },
+    {
+      "name": "Retrieve repos for user",
+      "_postman_id": "a918fc59-a73c-498d-a150-497b34c9c541",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users/:username/repos?type=owner",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users",
+            ":username",
+            "repos"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "owner"
+            }
+          ],
+          "variable": [
+            {
+              "key": "username",
+              "value": "spring-projects",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Retrieve repos for user Copy",
+      "_postman_id": "28b28a51-2f3e-48d3-9605-61a6094d6fb5",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.github.com/users/:username/repos?type=owner",
+          "protocol": "https",
+          "host": [
+            "api",
+            "github",
+            "com"
+          ],
+          "path": [
+            "users",
+            ":username",
+            "repos"
+          ],
+          "query": [
+            {
+              "key": "type",
+              "value": "owner"
+            }
+          ],
+          "variable": [
+            {
+              "id": "e48ef815-d68e-4830-ab4e-16707d13efa6",
+              "key": "username",
+              "value": "spring-projects",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "_postman_id": "f210d4b9-ec78-46c3-9f03-af5cae3781b1",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": null
+      },
+      "response": []
+    }
+  ]
+}
