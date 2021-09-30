@@ -122,8 +122,8 @@
       "response": []
     },
     {
-      "name": "Update Repo",
-      "id": "c062e2d3-0457-4498-85bc-c2bd73321a31",
+      "name": "New Request Copy",
+      "id": "7fa5f40b-9eb6-458e-838a-46ce7963bf8e",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -135,8 +135,8 @@
       "response": []
     },
     {
-      "name": "New Request Copy",
-      "id": "7fa5f40b-9eb6-458e-838a-46ce7963bf8e",
+      "name": "Update Repo",
+      "id": "c062e2d3-0457-4498-85bc-c2bd73321a31",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
