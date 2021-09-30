@@ -122,7 +122,7 @@
       "response": []
     },
     {
-      "name": "New Request",
+      "name": "Update Repo",
       "id": "c062e2d3-0457-4498-85bc-c2bd73321a31",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
